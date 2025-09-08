@@ -1,0 +1,78 @@
+Part 1: Hello PHP
+Create a PHP file called hello.php.
+
+Write code to display:
+
+Hello, World!
+Modify your program so it displays your full name instead.
+
+Part 2: Variables and Strings
+Create a file called info.php.
+
+Declare two variables: one for your name and one for your age.
+
+Display a sentence such as:
+
+My name is Alice and I am 20 years old.
+Change the values and run the program again.
+
+Part 3: Simple Calculator
+Create a file called calculator.php.
+
+Define two variables $num1 and $num2 with any numbers.
+
+Write code to calculate and display the sum, difference, product, and quotient of the two numbers.
+Example output:
+
+The sum of 10 and 5 is 15 The difference of 10 and 5 is 5 ...
+Part 4: Conditional Statements
+Create a file called grades.php.
+
+Define a variable $grade and assign it a number (0–100).
+
+Write an if-elseif-else statement to display a letter grade:
+
+90–100 → A
+
+80–89 → B
+
+70–79 → C
+
+below 70 → Fail
+
+Part 5: Loops
+Create a file called loop.php.
+
+Use a for loop to print numbers from 1 to 10.
+
+Modify your code to print the multiplication table of 5 (e.g., 5 x 1 = 5).
+
+Part 6: Form Handling
+Create a file called form.php.
+
+Build a simple HTML form with:
+
+A text box for the user’s name.
+
+A text box for the user’s age.
+
+A submit button.
+
+When the form is submitted, your PHP code should display a greeting such as:
+
+Hello, Alice! You are 20 years old.
+Challenge Task (Bonus)
+Create a file called quiz.php that:
+
+Asks the user to enter a number using a form.
+
+Displays whether the number is even or odd using PHP.
+
+Submission Requirements
+Submit all .php files in a folder named CMPS361/Mod1/ in GitHub
+
+Ensure your code runs without errors in XAMPP or another PHP server.
+
+Include comments in your code explaining what each section does.
+
+Create a video and post it here (DO NOT UPLOAD VIDEO, POST URL)
