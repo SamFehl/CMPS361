@@ -1,0 +1,13 @@
+Two Parts of the assignment: (Test Locally before deploying to your Jail)
+
+Part I:
+
+1. Create a Php Info page that we did in class to be deployed locally for testing purposes, but in addition deployed to yourname.it.pointpark.edu/Directory/ (IF) issues with JAIL, provide a screenshot of it working locally.
+
+Part III:
+
+Submit all work under CMPS361 / Module1/ into your GitHub Repo and add @jeffreyjseamanppu as a contributor
+
+1. Provide a link to your github repo
+
+2. Provide an URL to your phpinfo and homepage pointing to your Point Park Jail Page (IF you got JAIL to work)
