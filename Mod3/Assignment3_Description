@@ -1,0 +1,5 @@
+1. See if you can resolve the connection issue with the PostGres Database Driver (if so, show what you did in a video) else mention that you didn't get it to work.
+
+2. Create a connection to an existing API that you wrote locally in CMPS262 and show that it works.
+
+3. Upload code for Module 3 for the API connection, and show an image of the results in your ReadMe for Module 3
