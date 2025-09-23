@@ -1,0 +1,9 @@
+Build a simple local API using any dataset you like.
+
+Create a PHP page that consumes the API and displays the data.
+
+Implement pagination: fetch data in pages, include Next/Previous controls, numbered page links, and show the total page list.
+
+Push all code to GitHub for Module 4.
+
+Record a short walkthrough video demonstrating the setup and pagination.
