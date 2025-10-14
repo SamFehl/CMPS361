@@ -1,0 +1,11 @@
+Group Project from here on out:
+
+Develop an application around your theme. Build a login authentication in PHP with the use of PostGres SQL on the backend.
+
+1. Upload your source code to your Team Project GitHub and add @jeffreyjseamanppu as a contributor
+
+2. Create a short video demo and upload to YouTube or Vimeo or any provider (DO NOT PROVIDE A FILE)
+
+3. Share the video URL.
+
+(This should include a way to login, way to authenticate, logout and a welcome message)
