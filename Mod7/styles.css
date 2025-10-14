@@ -1,0 +1,102 @@
+:root {
+    --color1: #CFBAE1;
+    --color2: #3A5683;
+    --color3: #FC9E4F;
+    --color4: #61C9A8;
+    --color5: #BA3B46;
+    --color6: #a4a4a4;
+    --color7: #2E4756;
+    --color8: #16262E;
+    --color9: #3C7A89;
+
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: var(--color8);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--color7);
+    cursor: pointer;
+}
+
+th a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
+/*th a:hover {
+    color: var(--color2);
+}*/
+
+tbody tr:nth-child(even) {
+    background-color: var(--color1);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:hover {
+    background-color: var(--color6);
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: var(--color3);
+    color: var(--color7);
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: var(--color5);
+    color: white;
+}
+
+.pagination strong {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: var(--color4);
+    color: white;
+    border-radius: 5px;
+}
+
+.total-records {
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--color4);
+}
+
+.limit-container {
+    color: var(--color4);
+    /*background-color: var(--color9);*/
+}
+
+.search-container {
+    color: var(--color4);
+    /*background-color: var(--color9);*/
+}
