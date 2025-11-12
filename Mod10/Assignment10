@@ -1,0 +1,15 @@
+Group Project from here on out:
+
+Use SAST Scanning and scan each page: Set the Level to 7 with "Strict Rules" and unchecked
+
+1. Provide a document that lists each error for each page (before) and (after) you resolved the issues
+
+Acceptance:
+
+Issues are resolved and meet the expectations
+
+What you need to do:
+
+1. Upload your source code to your Team Project GitHub and add @jeffreyjseamanppu as a contributor
+
+2. Provide a document with all of the pages, errors and resolutions
