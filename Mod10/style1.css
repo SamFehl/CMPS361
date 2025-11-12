@@ -1,0 +1,143 @@
+:root {
+    --color1: #CFBAE1; /* light purple */
+    --color2: #3A5683; /* deep blue */
+    --color3: #FC9E4F; /* orange accent */
+    --color4: #61C9A8; /* mint green */
+    --color5: #BA3B46; /* red accent */
+    --color6: #a4a4a4; /* gray */
+    --color7: #2E4756; /* dark blue-gray */
+    --color8: #16262E; /* near black background */
+    --color9: #3C7A89; /* teal */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: var(--color8);
+    color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Heading */
+h1 {
+    color: var(--color4);
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Row */
+th {
+    background-color: var(--color7);
+    color: var(--color1);
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Table Rows */
+td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    color: var(--color8);
+    font-size: 1rem;
+}
+
+/* Row Colors */
+tbody tr:nth-child(even) {
+    background-color: var(--color1);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: var(--color3);
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+/* Table Container Responsive Behavior */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ---------- Navigation Buttons ---------- */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+/* Each link styled like a button */
+.nav-buttons a {
+    text-decoration: none;
+    background-color: var(--color3);
+    color: var(--color8);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover and focus effects */
+.nav-buttons a:hover,
+.nav-buttons a:focus {
+    background-color: var(--color5);
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Active/Current page highlight (optional) */
+.nav-buttons a.active {
+    background-color: var(--color4);
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .nav-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav-buttons a {
+        width: 80%;
+        text-align: center;
+    }
+}
