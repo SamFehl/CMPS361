@@ -1,0 +1,47 @@
+Objective
+The goal of this assignment is to design and implement a knowledge-based chatbot that responds to user queries. The chatbot will focus on a specific topic, which can be chosen by your group (e.g., sports history, tech innovations, or university-related FAQs).
+
+Assignment Overview
+Create a chatbot that:
+
+Accepts user input through a web interface.
+Responds intelligently based on a predefined set of knowledge (database or hardcoded).
+Provides a user-friendly interface for interaction.
+1. Topic Selection
+Choose a specific topic for your chatbot (e.g., Pittsburgh sports history, programming languages, movie trivia, etc.).
+Your chatbot should handle at least 10 unique questions and responses.
+2. Backend Development
+Use a programming language of your choice (e.g., PHP).
+Store questions and answers in a database (e.g., PostgreSQL) 
+Implement logic to match user input to predefined responses. Use case-insensitive matching and provide a fallback response for unknown queries (e.g., "I’m sorry, I don’t know the answer to that.").
+3. Frontend Development
+Create a simple web interface using HTML/PHP/CSS/JavaScript:
+A text box for user input.
+A "Send" button to submit queries.
+A chat window to display the conversation.
+4. Features
+Mandatory:
+A welcome message when the page loads.
+The ability to handle at least 10 predefined queries.
+A fallback response for unrecognized queries.
+5. Documentation
+Submit a brief document in your ReadMe file of GitHub:
+A description of your chatbot.
+The technology stack you used (e.g., PHP with PostgreSQL, JavaScript).
+A list of predefined questions and answers.
+Challenges faced and how you overcame
+6. Presentation & Code Submission
+Submit a demo video (youTube, Vimeo etc;) of your chatbot:
+Provide a screen-share of your video of your application together or separate videos
+FOR THOSE WHO TAKE THE CLASS ONGROUND, YOU WILL PRESENT IN CLASS ON DEC 2nd
+7. Deliverables
+Source code files (backend and frontend)
+Database schema 
+Documentation of your application
+Presentation
+7. Criteria
+Functionality
+User Interface
+Code Quality and Comments
+Creativity (topic, features)
+Documentation
