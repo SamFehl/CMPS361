@@ -1,0 +1,18 @@
+Objective
+The goal of this assignment is to enhance the current chatbot to allow automatic method to appear on the page when the user comes to the page.
+
+Assignment Overview
+Append the chatbot that:
+
+Chatbot pops up automatically when users appear on page
+Same sequence follows
+ 
+
+1. Backend Development
+Use a programming language of your choice (e.g., PHP) & JavaScript.
+Store questions and answers in a database (e.g., PostgreSQL) 
+Implement logic to identify when the page has a user and appears to popup and generate chatbot
+2. Frontend Development
+Create a method that is hidden but the chatbot appears after it appears a user has been on the page for more than 10 seconds
+3. Code Deployment
+Submit code to GitHub
